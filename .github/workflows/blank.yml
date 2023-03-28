@@ -39,7 +39,12 @@ jobs:
           which cmake
           pwd
           ls
-          curl https://storage.googleapis.com/git-repo-downloads/repo > /home/runner/bin/repo
+          cd /home/runner
+          mkdir bin
+          cd bin
+          mkdir repo
+          cd repo 
+          curl https://storage.googleapis.com/git-repo-downloads/repo
           #pwd
           #ls
           #chmod a+x /bin/repo
