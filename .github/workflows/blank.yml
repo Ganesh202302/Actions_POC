@@ -35,5 +35,6 @@ jobs:
           node -v
           npm -v
           cmake --version
-          npm install
+          which gcc
+          which cmake
           echo test, and deploy your project.
