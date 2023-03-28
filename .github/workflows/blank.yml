@@ -38,10 +38,13 @@ jobs:
           which gcc
           which cmake
           pwd
-          curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-          cd ~/bin
+          cd ~
           pwd
           ls
+          #curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+          #cd ~/bin
+          #pwd
+          #ls
           #chmod a+x ~/bin/repo
           #export PATH=~/bin:$PATH
           #source ~/.bashrc
