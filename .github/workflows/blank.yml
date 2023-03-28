@@ -37,4 +37,5 @@ jobs:
           cmake --version
           which gcc
           which cmake
-          echo test, and deploy your project.
+          repo --version
+          echo "End of the JOB"
