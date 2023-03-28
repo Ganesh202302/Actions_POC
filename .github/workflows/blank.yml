@@ -40,11 +40,11 @@ jobs:
           pwd
           cd ~/runners
           ls
-          #curl https://storage.googleapis.com/git-repo-downloads/repo > /bin/repo
+          curl https://storage.googleapis.com/git-repo-downloads/repo > /home/runners/bin/repo
           #pwd
           #ls
           #chmod a+x /bin/repo
-          #export PATH=/bin:$PATH
+          #export PATH=/home/runners/bin/repo:$PATH
           #source /.bashrc
           #repo 
           echo "End of the JOB"
