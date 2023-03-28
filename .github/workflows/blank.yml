@@ -40,8 +40,9 @@ jobs:
           pwd
           cd ~/runners
           ls
-          mkdir  /home/runners/bin
-          mkdir /home/runners/bin/repo
+          cd /home/runners
+          mkdir -p bin/repo
+          cd ${{ github.workspace }
           curl https://storage.googleapis.com/git-repo-downloads/repo > /home/runners/bin/repo
           #pwd
           #ls
