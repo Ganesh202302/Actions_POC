@@ -47,7 +47,7 @@ jobs:
           curl https://storage.googleapis.com/git-repo-downloads/repo
           #pwd
           #ls
-          #chmod a+x /bin/repo
+          chmod a+x /home/runner/bin/repo
           export PATH=/home/runner/bin/repo:$PATH
           #source /.bashrc
           repo 
