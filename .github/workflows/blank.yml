@@ -37,5 +37,9 @@ jobs:
           cmake --version
           which gcc
           which cmake
-          repo --version
+          curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+          chmod a+x ~/bin/repo
+          export PATH=~/bin:$PATH
+          source ~/.bashrc
+          repo 
           echo "End of the JOB"
