@@ -38,7 +38,7 @@ jobs:
           which gcc
           which cmake
           pwd
-          cd ~
+          cd ~/runners
           ls
           #curl https://storage.googleapis.com/git-repo-downloads/repo > /bin/repo
           #pwd
