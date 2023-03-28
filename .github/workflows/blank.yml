@@ -50,6 +50,6 @@ jobs:
           chmod a+x /home/runner/bin/repo
           export PATH=/home/runner/bin/repo:$PATH
           #source /.bashrc
-          repo init
-          echo "repo command executed"
+          # repo init
+          # echo "repo command executed"
           echo "End of the JOB"
