@@ -38,16 +38,16 @@ jobs:
           which gcc
           which cmake
           pwd
-          cd ~/runners
+          cd ~/runner
           ls
-          cd /home/runners
+          cd /home/runner
           mkdir -p bin/repo
           cd ${{ github.workspace }}
-          curl https://storage.googleapis.com/git-repo-downloads/repo > /home/runners/bin/repo
+          curl https://storage.googleapis.com/git-repo-downloads/repo > /home/runner/bin/repo
           #pwd
           #ls
           #chmod a+x /bin/repo
-          #export PATH=/home/runners/bin/repo:$PATH
+          export PATH=/home/runner/bin/repo:$PATH
           #source /.bashrc
           #repo 
           echo "End of the JOB"
