@@ -40,6 +40,7 @@ jobs:
           pwd
           cd ~/runners
           ls
+          mkdir -r /home/runners/bin/repo
           curl https://storage.googleapis.com/git-repo-downloads/repo > /home/runners/bin/repo
           #pwd
           #ls
