@@ -39,9 +39,6 @@ jobs:
           which cmake
           pwd
           ls
-          cd /home/runner
-          mkdir -p bin/repo
-          cd ${{ github.workspace }}
           curl https://storage.googleapis.com/git-repo-downloads/repo > /home/runner/bin/repo
           #pwd
           #ls
